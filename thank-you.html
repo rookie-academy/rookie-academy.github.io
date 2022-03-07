@@ -75,7 +75,7 @@
                         <li><a href="/#about-us">About Us</a></li>
                         <li><a href="/#our-services">Our Services</a></li>
                         <li><a href="/#working-with-us">Working With Us</a></li>
-                        <li><a href="/faq/">FAQ</a></li>
+                        <li><a href="/frequent-asked-question.html">FAQ</a></li>
                         <li ><a href="/#contact-us">Contact</a></li>
                     </ul>
                 </nav>
@@ -89,61 +89,12 @@
                 </svg>
             </div>
         </div>
-        <section class="join-us-section">
+        <section class="thank-section">
             <div class="container">
-                <div class="punchline"><img src="/assets/make-an-appointment.svg" alt="make an appointment logo">
-                    <h1>Make an appointment</h1>
+                <div class="punchline">
+                    <img src="/assets/thanks-letter-logo.svg" alt="thank-you">
+                    <h1>Thank you!</h1>
                 </div>
-                <form target="_blank" action="https://sheetdb.io/api/v1/jj0ckvqbczatf" method="POST" id="sheetdb-form">
-                    <label for="name">Name<span>*</span></label>
-                    <input type="text" id="name" name="data[name]" required>
-
-                    <label for="age">Pupil's Age<span>*</span></label>
-                    <input type="text" id="age" name="data[age]" required>
-
-                    <label for="phone">Phone<span>*</span></label>
-                    <input type="text" id="phone" name="data[phone]" required>
-
-                    <label for="email">Email<span>*</span></label>
-                    <input type="email" id="email" name="data[email]" required>
-
-                    <p>Place of appointment <span>*</span></p>
-                    <div class="place">
-                        
-                        <input type="radio" id="tuen-mun" name="data[place]" value="TUEN-MUN">
-                        <label for="tuen-mun">Tuen Mun</label>
-
-                        <input type="radio" id="kwun-tong" name="data[place]" value="KWUN-TONG">
-                        <label for="kwun-tong">Kwun Tong</label>
-
-                        <input type="radio" id="on-consult" name="data[place]" value="ONLINE-CONSULTATION">
-                        <label for="on-consult">online consultation</label>
-
-                    </div>
-                    
-                    
-
-                    <label for="subject">Subject/service you want to consult<span>*</span></label>
-                    <textarea  class="comments" name="data[subject]" id="subject" cols="40" rows="5" required></textarea>
-
-                    <label for="time">Consultation Time<span>*</span></label>
-                    <input type="text" id="time" name="data[time]" placeholder="DD/MM/YYYY" required>
-
-                    <div class="subscribe">
-
-                        <input type="checkbox" id="subscribe" name="data[subscribe]" value="yes" checked>
-                        <label for="subscribe">By checking this box and submitting your information, you are granting us permission to email you. 
-                        You may unsubscribe at any time.</label>
-
-                    </div>
-
-                    <input id="currentDate" type="date" name="data[currentDate]" hidden/> 
-
-                    <input id="currentTime" type="time" name="data[currentTime]" hidden/>
-
-                    <input type="submit" class="submit-cta" value="Submit">
-
-                </form>
             </div>
         </section>
     </div>
@@ -215,29 +166,6 @@
         close.addEventListener('click', () => {
             nav.classList.remove('open-nav')
         }) 
-
-        var form = document.getElementById('sheetdb-form');
-        form.addEventListener("submit", e => {
-            e.preventDefault();
-            fetch(form.action, {
-                method : "POST",
-                body: new FormData(document.getElementById("sheetdb-form")),
-            }).then(
-                response => response.json()
-            ).then((html) => {
-                // you can put any JS code here
-                window.location.replace("/thank-you");
-                
-            });
-        });
-
-        var date = new Date();
-        var currentDate = date.toISOString().slice(0,10);
-        var currentTime = date.getHours() + ':' + date.getMinutes();
-
-        document.getElementById('currentDate').value = currentDate;
-        document.getElementById('currentTime').value = currentTime;
-
     </script>
 </body>
 </html>
