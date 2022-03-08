@@ -805,6 +805,14 @@ nav li a:hover {
     position: relative;
     left: 2em;
   }
+  section.more-info {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (auto)[2];
+        grid-template-columns: repeat(2, auto);
+    gap: 2em;
+    width: 770px;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -852,6 +860,14 @@ nav li a:hover {
   }
   section.work-with-us .punchline h1 {
     text-indent: 1.3em;
+  }
+  section.more-info {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (auto)[3];
+        grid-template-columns: repeat(3, auto);
+    gap: 3em;
+    width: 1080px;
   }
 }
 
@@ -1128,5 +1144,75 @@ section.work-with-us .container input[type="submit"] {
   display: inline-block;
   padding: .5em .9em;
   cursor: pointer;
+}
+
+section.group-programmes {
+  background: var(--primary-color);
+  color: white;
+  text-align: center;
+  padding: 3em;
+}
+
+section.group-programmes img {
+  width: 7em;
+}
+
+section.group-programmes h1 {
+  font-size: 1.7rem;
+}
+
+section.group-programmes svg {
+  margin: 2em 0 1em 0;
+  width: 18em;
+  height: 4px;
+}
+
+section.more-info {
+  padding: 2em 1em;
+}
+
+section.more-info .feature {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[2];
+      grid-template-columns: repeat(2, auto);
+  gap: 3em;
+  margin-bottom: 1em;
+  background: #FFFFFF;
+  border-radius: .7em;
+  -webkit-box-shadow: #cacacaa6 1px 2px 2px;
+          box-shadow: #cacacaa6 1px 2px 2px;
+  width: 18em;
+  padding: 1em 2em;
+}
+
+section.more-info .feature img {
+  width: 7em;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 7em;
+  border-radius: 20em;
+  position: relative;
+  top: .8em;
+}
+
+section.more-info .feature .content {
+  position: relative;
+  top: -1em;
+}
+
+section.more-info .feature .content p {
+  padding: 2em 2em 0 0;
+}
+
+section.more-info .feature .content .more-info-btn {
+  display: inline-block;
+  text-decoration: none;
+  font-size: .7rem;
+  font-weight: bold;
+  color: white;
+  background: var(--primary-color);
+  padding: .3em .9em;
+  border-radius: 5em;
 }
 /*# sourceMappingURL=main.css.map */
