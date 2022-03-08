@@ -773,6 +773,20 @@ nav {
         }
     }
 
+    section.work-with-us-section {
+        .punchline {
+            img{
+                position: relative;
+                top: -1.3em;
+            }
+
+            h1 {
+                position: relative;
+                left: 2em;
+            }
+        }
+    }
+
 }
 
 @media only screen and (min-width: 1200px) {
@@ -841,6 +855,18 @@ nav {
             width: 1080px;
         }
     }
+
+    section.work-with-us {
+        .punchline {
+            img {
+                position: relative;
+                top: -1.3em;
+            }
+            h1 {
+                text-indent: 1.3em;
+            }
+        }
+    }
 }
 
 section.join-us-section {
@@ -858,6 +884,13 @@ section.join-us-section {
                 padding-bottom: 2em;
             }
         }
+        
+        p {
+            font-size: 1.3rem;
+            margin-bottom: .5em;
+            margin-top: 1em;
+        }
+
         label {
             font-size: 1.3rem;
             display: block;
@@ -872,12 +905,6 @@ section.join-us-section {
             border-radius: .3em;
             border: 1px solid gray;
             box-sizing: border-box;
-        }
-
-        p {
-            font-size: 1.3rem;
-            margin-bottom: .5em;
-            margin-top: 1em;
         }
 
         .place {
@@ -1020,8 +1047,22 @@ section.weather-policy-section {
 }
 
 section.work-with-us {
-
+    padding: 3em 2.7em;
     .container {
+
+        margin-top: 2em;
+
+        .punchline {
+            text-align: center;
+            img {
+                width: 5em;
+                margin-bottom: 1em;
+            }
+            h1 {
+                font-size: 1.7rem;
+                padding-bottom: 2em;
+            }
+        }
 
         label {
             font-size: 1.3rem;
@@ -1037,6 +1078,7 @@ section.work-with-us {
             border: 1px solid gray;
             box-sizing: border-box;
         }
+
         input[type="submit"] {
             text-decoration: none;
             background: var(--primary-color);

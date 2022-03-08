@@ -797,6 +797,14 @@ nav li a:hover {
     position: relative;
     left: 2em;
   }
+  section.work-with-us-section .punchline img {
+    position: relative;
+    top: -1.3em;
+  }
+  section.work-with-us-section .punchline h1 {
+    position: relative;
+    left: 2em;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -838,6 +846,13 @@ nav li a:hover {
   section.faq-section .container, section.weather-policy-section .container {
     width: 1080px;
   }
+  section.work-with-us .punchline img {
+    position: relative;
+    top: -1.3em;
+  }
+  section.work-with-us .punchline h1 {
+    text-indent: 1.3em;
+  }
 }
 
 section.join-us-section {
@@ -862,6 +877,12 @@ section.join-us-section .container .punchline h1 {
   padding-bottom: 2em;
 }
 
+section.join-us-section .container p {
+  font-size: 1.3rem;
+  margin-bottom: .5em;
+  margin-top: 1em;
+}
+
 section.join-us-section .container label {
   font-size: 1.3rem;
   display: block;
@@ -877,12 +898,6 @@ section.join-us-section .container input[type="text"], section.join-us-section .
   border: 1px solid gray;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-}
-
-section.join-us-section .container p {
-  font-size: 1.3rem;
-  margin-bottom: .5em;
-  margin-top: 1em;
 }
 
 section.join-us-section .container .place {
@@ -1031,6 +1046,28 @@ section.weather-policy-section p {
   letter-spacing: .03em;
   font-size: 1.1rem;
   margin-left: 1em;
+}
+
+section.work-with-us {
+  padding: 3em 2.7em;
+}
+
+section.work-with-us .container {
+  margin-top: 2em;
+}
+
+section.work-with-us .container .punchline {
+  text-align: center;
+}
+
+section.work-with-us .container .punchline img {
+  width: 5em;
+  margin-bottom: 1em;
+}
+
+section.work-with-us .container .punchline h1 {
+  font-size: 1.7rem;
+  padding-bottom: 2em;
 }
 
 section.work-with-us .container label {
