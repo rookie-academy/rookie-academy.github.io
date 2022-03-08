@@ -813,6 +813,14 @@ nav li a:hover {
     gap: 2em;
     width: 770px;
   }
+  section.group-programmes .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  section.group-programmes .container h1 {
+    padding-left: 2em;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -1159,12 +1167,6 @@ section.group-programmes img {
 
 section.group-programmes h1 {
   font-size: 1.7rem;
-}
-
-section.group-programmes svg {
-  margin: 2em 0 1em 0;
-  width: 18em;
-  height: 4px;
 }
 
 section.more-info {

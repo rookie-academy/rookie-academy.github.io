@@ -792,6 +792,16 @@ nav {
         gap: 2em;
         width: 770px;
     }
+
+    section.group-programmes {
+        .container {
+            display: flex;
+            h1{
+                padding-left: 2em;
+            }
+        }
+
+    }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -880,6 +890,7 @@ nav {
         width: 1080px;
         
     }
+
 }
 
 section.join-us-section {
@@ -1152,16 +1163,11 @@ section.group-programmes {
     h1 {
         font-size: 1.7rem;
     }
-    svg {
-        margin: 2em 0 1em 0;
-        width: 18em;
-        height: 4px;
-    }
+
 }
 
 section.more-info {
     padding: 2em 1em;
-    
     .feature {
         display: grid;
         grid-template-columns: repeat(2,auto);
