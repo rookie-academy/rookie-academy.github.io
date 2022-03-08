@@ -1048,6 +1048,34 @@ section.weather-policy-section p {
   margin-left: 1em;
 }
 
+section.thank-section {
+  color: #707070;
+  margin-top: 3em;
+  padding: 0 3em;
+}
+
+section.thank-section .punchline {
+  text-align: center;
+  padding-bottom: 3em;
+}
+
+section.thank-section .punchline img {
+  width: 7em;
+}
+
+section.thank-section .punchline h1 {
+  font-size: 1.7rem;
+  margin-left: 1em;
+}
+
+section.thank-section p {
+  padding: 0 0 3em 0;
+  text-indent: 2em;
+  letter-spacing: .03em;
+  font-size: 1.1rem;
+  margin-left: 1em;
+}
+
 section.work-with-us {
   padding: 3em 2.7em;
 }
