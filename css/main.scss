@@ -471,37 +471,20 @@ section.working-with-us-section {
         margin-bottom: 2em;
         line-height: 1.8em;
     }
-    label {
-        font-size: 1.3rem;
-        display: block;
-        margin-bottom: .5em;
-        margin-top: 1em;
-    }
-    input, textarea {
-        width: 100%;
-        padding:.8em;
-        margin-bottom: 1em;
-        border-radius: .3em;
-        border: 1px solid gray;
-        box-sizing: border-box;
-    }
-    input[type="submit"] {
-        text-decoration: none;
-        background: var(--primary-color);
-        color: white;
-        font-weight: bold;
-        font-size: 1.5rem;
-    
-        border: none;
-        border-radius: 5em;
-        margin-bottom:5em;
-        width:unset;
-        display: inline-block;
-        padding: .5em .9em;
-        cursor: pointer;
 
+    .work-cta {
+        display: inline-block;
+        text-decoration: none;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: white;
+        background: var(--primary-color);
+        padding: .3em .9em;
+        border-radius: 5em;
     }
 }
+
+
 
 .footer {
     background: var(--tertiary-color);
@@ -634,7 +617,7 @@ nav {
         font-family: 'Poppins',sans-serif;
     }
     
-    .contact-left , section.working-with-us-section form, section.join-us-section form {
+    .contact-left , section.work-with-us form, section.join-us-section form {
         width: 500px;
     }
 
@@ -644,6 +627,8 @@ nav {
         } 
     }
 }
+
+
 
 @media only screen and (min-width: 920px) {
     
@@ -1032,4 +1017,43 @@ section.weather-policy-section {
         font-size: 1.1rem;
         margin-left: 1em;
     }
+}
+
+section.work-with-us {
+
+    .container {
+
+        label {
+            font-size: 1.3rem;
+            display: block;
+            margin-bottom: .5em;
+            margin-top: 1em;
+        }
+        input, textarea {
+            width: 100%;
+            padding:.8em;
+            margin-bottom: 1em;
+            border-radius: .3em;
+            border: 1px solid gray;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            text-decoration: none;
+            background: var(--primary-color);
+            color: white;
+            font-weight: bold;
+            font-size: 1.5rem;
+        
+            border: none;
+            border-radius: 5em;
+            margin-bottom:5em;
+            width:unset;
+            display: inline-block;
+            padding: .5em .9em;
+            cursor: pointer;
+    
+        }
+
+    }
+    
 }

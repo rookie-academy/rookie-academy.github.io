@@ -524,36 +524,15 @@ section.working-with-us-section p {
   line-height: 1.8em;
 }
 
-section.working-with-us-section label {
-  font-size: 1.3rem;
-  display: block;
-  margin-bottom: .5em;
-  margin-top: 1em;
-}
-
-section.working-with-us-section input, section.working-with-us-section textarea {
-  width: 100%;
-  padding: .8em;
-  margin-bottom: 1em;
-  border-radius: .3em;
-  border: 1px solid gray;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-section.working-with-us-section input[type="submit"] {
-  text-decoration: none;
-  background: var(--primary-color);
-  color: white;
-  font-weight: bold;
-  font-size: 1.5rem;
-  border: none;
-  border-radius: 5em;
-  margin-bottom: 5em;
-  width: unset;
+section.working-with-us-section .work-cta {
   display: inline-block;
-  padding: .5em .9em;
-  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  background: var(--primary-color);
+  padding: .3em .9em;
+  border-radius: 5em;
 }
 
 .footer {
@@ -699,7 +678,7 @@ nav li a:hover {
   body section .container {
     padding: 1.5em 5em;
   }
-  .contact-left, section.working-with-us-section form, section.join-us-section form {
+  .contact-left, section.work-with-us form, section.join-us-section form {
     width: 500px;
   }
   .top-header-bar img.icon-mobile {
@@ -1052,5 +1031,37 @@ section.weather-policy-section p {
   letter-spacing: .03em;
   font-size: 1.1rem;
   margin-left: 1em;
+}
+
+section.work-with-us .container label {
+  font-size: 1.3rem;
+  display: block;
+  margin-bottom: .5em;
+  margin-top: 1em;
+}
+
+section.work-with-us .container input, section.work-with-us .container textarea {
+  width: 100%;
+  padding: .8em;
+  margin-bottom: 1em;
+  border-radius: .3em;
+  border: 1px solid gray;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+section.work-with-us .container input[type="submit"] {
+  text-decoration: none;
+  background: var(--primary-color);
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 5em;
+  margin-bottom: 5em;
+  width: unset;
+  display: inline-block;
+  padding: .5em .9em;
+  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */
