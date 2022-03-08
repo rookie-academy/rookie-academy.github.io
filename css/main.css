@@ -686,7 +686,7 @@ nav li a:hover {
   }
 }
 
-@media only screen and (min-width: 892px) {
+@media only screen and (min-width: 920px) {
   .menu {
     display: none;
   }
