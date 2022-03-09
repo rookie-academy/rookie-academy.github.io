@@ -678,7 +678,7 @@ nav li a:hover {
   body section .container {
     padding: 1.5em 5em;
   }
-  .contact-left, section.work-with-us form, section.join-us-section form {
+  .contact-left, section.work-with-us form, section.join-us-section form, section.join-us-section-brown form {
     width: 500px;
   }
   .top-header-bar img.icon-mobile {
@@ -794,6 +794,14 @@ nav li a:hover {
     top: -1.3em;
   }
   section.join-us-section .punchline h1 {
+    position: relative;
+    left: 2em;
+  }
+  section.join-us-section-brown .punchline img {
+    position: relative;
+    top: -1.3em;
+  }
+  section.join-us-section-brown .punchline h1 {
     position: relative;
     left: 2em;
   }
@@ -990,6 +998,124 @@ section.join-us-section .container .subscribe label {
   margin: 0;
   font-size: .7rem;
   color: #606060;
+  position: relative;
+  top: -.3em;
+  left: 1em;
+}
+
+section.join-us-section-brown {
+  padding: 3em 2.7em;
+  background: var(--secondary-color);
+  color: white;
+}
+
+section.join-us-section-brown .container {
+  margin-top: 2em;
+}
+
+section.join-us-section-brown .container .punchline {
+  text-align: center;
+}
+
+section.join-us-section-brown .container .punchline img {
+  width: 7em;
+  margin-bottom: 1em;
+}
+
+section.join-us-section-brown .container .punchline h1 {
+  font-size: 1.7rem;
+  padding-bottom: 2em;
+}
+
+section.join-us-section-brown .container p {
+  font-size: 1.3rem;
+  margin-bottom: .5em;
+  margin-top: 1em;
+}
+
+section.join-us-section-brown .container label {
+  font-size: 1.3rem;
+  display: block;
+  margin-bottom: .5em;
+  margin-top: 1em;
+}
+
+section.join-us-section-brown .container input[type="text"], section.join-us-section-brown .container input[type="email"], section.join-us-section-brown .container textarea {
+  width: 100%;
+  padding: .8em;
+  margin-bottom: 1em;
+  border-radius: .3em;
+  border: 1px solid gray;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+section.join-us-section-brown .container .place {
+  width: 10em;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[2];
+      grid-template-columns: repeat(2, auto);
+  gap: 2em;
+}
+
+section.join-us-section-brown .container .place input [type="radio"] {
+  margin: 0;
+  padding: 0;
+}
+
+section.join-us-section-brown .container .place label {
+  margin: 0;
+  padding: .3em;
+  text-align: center;
+  position: relative;
+  top: -.5em;
+  font-size: 1rem;
+}
+
+section.join-us-section-brown .container .place label:hover {
+  background-color: var(--tertiary-color);
+  border-radius: .3em;
+  color: white;
+  cursor: pointer;
+}
+
+section.join-us-section-brown .container input[type="submit"] {
+  text-decoration: none;
+  background: var(--primary-color);
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 5em;
+  margin-bottom: 5em;
+  width: unset;
+  display: inline-block;
+  padding: .5em .9em;
+  cursor: pointer;
+}
+
+section.join-us-section-brown .container .subscribe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 3em 5em 3em 0em;
+}
+
+section.join-us-section-brown .container .subscribe input[type="checkbox"] {
+  padding: 0;
+  margin: 0;
+}
+
+section.join-us-section-brown .container .subscribe input[type="checkbox"] {
+  -webkit-transform: scale(1.5, 1.5);
+}
+
+section.join-us-section-brown .container .subscribe label {
+  padding: 0;
+  margin: 0;
+  font-size: .7rem;
+  color: whitesmoke;
   position: relative;
   top: -.3em;
   left: 1em;

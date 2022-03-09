@@ -142,6 +142,63 @@
                 </div>
             </div>
         </section>
+        <section class="join-us-section-brown">
+            <div class="container">
+                <div class="punchline"><img src="/assets/make-an-appointment.svg" alt="make an appointment logo">
+                    <h1>Make an appointment</h1>
+                </div>
+                <form target="_blank" action="https://sheetdb.io/api/v1/jj0ckvqbczatf" method="POST" id="sheetdb-form">
+                    <label for="name">Name<span>*</span></label>
+                    <input type="text" id="name" name="data[name]" required>
+
+                    <label for="age">Pupil's Age<span>*</span></label>
+                    <input type="text" id="age" name="data[age]" required>
+
+                    <label for="phone">Phone<span>*</span></label>
+                    <input type="text" id="phone" name="data[phone]" required>
+
+                    <label for="email">Email<span>*</span></label>
+                    <input type="email" id="email" name="data[email]" required>
+
+                    <p>Place of appointment <span>*</span></p>
+                    <div class="place">
+                        
+                        <input type="radio" id="tuen-mun" name="data[place]" value="TUEN-MUN">
+                        <label for="tuen-mun">Tuen Mun</label>
+
+                        <input type="radio" id="kwun-tong" name="data[place]" value="KWUN-TONG">
+                        <label for="kwun-tong">Kwun Tong</label>
+
+                        <input type="radio" id="on-consult" name="data[place]" value="ONLINE-CONSULTATION">
+                        <label for="on-consult">online consultation</label>
+
+                    </div>
+                    
+                    
+
+                    <label for="subject">Subject/service you want to consult<span>*</span></label>
+                    <textarea  class="comments" name="data[subject]" id="subject" cols="40" rows="5" required></textarea>
+
+                    <label for="time">Consultation Time<span>*</span></label>
+                    <input type="text" id="time" name="data[time]" placeholder="DD/MM/YYYY" required>
+
+                    <div class="subscribe">
+
+                        <input type="checkbox" id="subscribe" name="data[subscribe]" value="yes" checked>
+                        <label for="subscribe">By checking this box and submitting your information, you are granting us permission to email you. 
+                        You may unsubscribe at any time.</label>
+
+                    </div>
+
+                    <input id="currentDate" type="date" name="data[currentDate]" hidden/> 
+
+                    <input id="currentTime" type="time" name="data[currentTime]" hidden/>
+
+                    <input type="submit" class="submit-cta" value="Submit">
+
+                </form>
+            </div>
+        </section>
     </div>
     <div class="footer">
         <div class="container">
