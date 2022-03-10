@@ -439,14 +439,24 @@ section.services-section {
         line-height: 1.8em;
     }
 
-    a {
-        display: block;
-        img{
-            margin-top: 3em;
-        }
-        .outreach-service {
-            margin-left: 1em;
-        }
+    a.more-info-cta {
+        //display: block;
+        //img{
+            //margin-top: 3em;
+        //}
+        //.outreach-service {
+            //margin-left: 1em;
+        //}
+        
+        display: inline-block;
+        text-decoration: none;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: white;
+        background: var(--primary-color);
+        padding: .3em .9em;
+        border-radius: 5em;
+        
     }
     
 }
@@ -738,15 +748,15 @@ nav {
         width: 50%;
     }
 
-    section.services-section {
-        .service-btn{
+    //section.services-section {
+        //.service-btn{
             display: block;
             //li {
                 //position: relative;
                 //left: -10em;
             //}
-        }
-    }
+        //}
+    //}
 
     .footer .container{
         display: grid;
@@ -804,10 +814,11 @@ nav {
         display: grid; 
         grid-template-columns: repeat(2,auto);
         gap: 2em;
-        width: 770px;
+        margin: 0 auto;
+        width: 920px;
     }
 
-    section.group-programmes {
+    section.programmes-list {
         .container {
             display: flex;
             h1{
@@ -824,41 +835,41 @@ nav {
         margin: 0 auto;
     }
 
-    section.services-section {
-        .service-btn{
-            display: grid;
-            grid-template-columns: repeat(3,auto);
-            gap: 3em;
+    //section.services-section {
+        //.service-btn{
+            //display: grid;
+            //grid-template-columns: repeat(3,auto);
+            //gap: 3em;
             //li {
                 //position: relative;
                 //left: -10em;
             //}
-        }
-    }
+        //}
+    //}
 
-    .group-program {
-        &:hover {
-            img {
-                content: url(/assets/group-programme-hover.svg);
-            }
-        }
-    }
+    //.group-program {
+        //&:hover {
+            //img {
+                //content: url(/assets/group-programme-hover.svg);
+            //}
+        //}
+   // }
     
-    .ind-session {
-        &:hover {
-            img {
-                content: url(/assets/indivdual-session-hover.svg);
-            }
-        }
-    }
+    //.ind-session {
+        //&:hover {
+            //img {
+                //content: url(/assets/indivdual-session-hover.svg);
+            //}
+        //}
+    //}
     
-    .outreach-service {
-        &:hover {
-            img {
-                content: url(/assets/outreach-service-hover.svg);
-            }
-        }
-    }
+    //.outreach-service {
+        //&:hover {
+            //img {
+                //content: url(/assets/outreach-service-hover.svg);
+           //}
+        //}
+    //}
 
     .overlapping-bridge {
         position: relative;
@@ -901,8 +912,8 @@ nav {
         display: grid; 
         grid-template-columns: repeat(3,auto);
         gap: 3em;
-        width: 1080px;
-        
+        margin: 0 auto;
+        width: 1200px;
     }
 
 }
@@ -1274,7 +1285,7 @@ section.work-with-us {
     
 }
 
-section.group-programmes {
+section.programmes-list {
     background: var(--primary-color);
     color: white;
     text-align: center;
@@ -1290,6 +1301,8 @@ section.group-programmes {
 
 section.more-info {
     padding: 2em 1em;
+    margin: 0 auto;
+    width:100%;
     .feature {
         display: grid;
         grid-template-columns: repeat(2,auto);

@@ -486,16 +486,15 @@ section.services-section p {
   line-height: 1.8em;
 }
 
-section.services-section a {
-  display: block;
-}
-
-section.services-section a img {
-  margin-top: 3em;
-}
-
-section.services-section a .outreach-service {
-  margin-left: 1em;
+section.services-section a.more-info-cta {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  background: var(--primary-color);
+  padding: .3em .9em;
+  border-radius: 5em;
 }
 
 section.working-with-us-section {
@@ -775,9 +774,7 @@ nav li a:hover {
   .contact-left {
     width: 50%;
   }
-  section.services-section .service-btn {
-    display: block;
-  }
+  display: block;
   .footer .container {
     display: -ms-grid;
     display: grid;
@@ -819,14 +816,15 @@ nav li a:hover {
     -ms-grid-columns: (auto)[2];
         grid-template-columns: repeat(2, auto);
     gap: 2em;
-    width: 770px;
+    margin: 0 auto;
+    width: 920px;
   }
-  section.group-programmes .container {
+  section.programmes-list .container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
-  section.group-programmes .container h1 {
+  section.programmes-list .container h1 {
     padding-left: 2em;
   }
 }
@@ -834,22 +832,6 @@ nav li a:hover {
 @media only screen and (min-width: 1200px) {
   .wrapper {
     margin: 0 auto;
-  }
-  section.services-section .service-btn {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: (auto)[3];
-        grid-template-columns: repeat(3, auto);
-    gap: 3em;
-  }
-  .group-program:hover img {
-    content: url(/assets/group-programme-hover.svg);
-  }
-  .ind-session:hover img {
-    content: url(/assets/indivdual-session-hover.svg);
-  }
-  .outreach-service:hover img {
-    content: url(/assets/outreach-service-hover.svg);
   }
   .overlapping-bridge {
     position: relative;
@@ -883,7 +865,8 @@ nav li a:hover {
     -ms-grid-columns: (auto)[3];
         grid-template-columns: repeat(3, auto);
     gap: 3em;
-    width: 1080px;
+    margin: 0 auto;
+    width: 1200px;
   }
 }
 
@@ -1280,23 +1263,25 @@ section.work-with-us .container input[type="submit"] {
   cursor: pointer;
 }
 
-section.group-programmes {
+section.programmes-list {
   background: var(--primary-color);
   color: white;
   text-align: center;
   padding: 3em;
 }
 
-section.group-programmes img {
+section.programmes-list img {
   width: 7em;
 }
 
-section.group-programmes h1 {
+section.programmes-list h1 {
   font-size: 1.7rem;
 }
 
 section.more-info {
   padding: 2em 1em;
+  margin: 0 auto;
+  width: 100%;
 }
 
 section.more-info .feature {
