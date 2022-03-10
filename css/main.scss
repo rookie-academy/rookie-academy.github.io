@@ -750,7 +750,7 @@ nav {
 
     //section.services-section {
         //.service-btn{
-            display: block;
+            //display: block;
             //li {
                 //position: relative;
                 //left: -10em;
@@ -1339,5 +1339,68 @@ section.more-info {
                 border-radius: 5em;
             }
         }
+    }
+}
+
+section.dyslexia-in-chinese-section {
+    background: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 3em;
+    img {
+        width: 7em;
+    }
+    h1 {
+        font-size: 1.7rem;
+    }
+
+}
+
+section.more-info-section {
+    .container {
+        padding: 3em 1em;
+        margin: 0 auto;
+        p{
+            padding: 0 0 3em 0;
+            text-indent: 2em;
+            letter-spacing: .03em;
+            font-size: 1.1rem;
+            margin-left: 1em;
+        }
+    }
+    ul.qualities-list {
+        padding-right: 3em;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+        li {
+            font-size: 1.1rem;
+            letter-spacing: .03em;
+            margin-bottom: 4em;
+            margin-left: 2em;
+            position: relative;
+            &:before {
+                content: '';
+                left: -2em;
+                top: .3em;
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                background-image: url('/assets/bullet-point-svg.svg');
+                background-size: contain;
+                margin-right: .5em;
+                margin-left: .2em;
+               }
+        }
+    }
+    
+    img.games-for-learning-chinese {
+        width:17em;
+        height:17em;
+        clip-path: circle(50% at 50% 50%);
+        object-fit: cover;
+        position: relative;
+        left:2em;
     }
 }
