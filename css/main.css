@@ -1335,12 +1335,12 @@ section.dyslexia-in-chinese-section {
   padding: 3em;
 }
 
-section.dyslexia-in-chinese-section img {
-  width: 7em;
-}
-
 section.dyslexia-in-chinese-section h1 {
   font-size: 1.7rem;
+}
+
+section.dyslexia-in-chinese-section p {
+  padding-top: 2em;
 }
 
 section.more-info-section .container {
