@@ -1300,8 +1300,8 @@ section.programmes-list {
 }
 
 section.more-info {
-    padding: 2em 1em;
-    width:100%;
+    margin: 0 auto;
+    padding: 2em;
     .feature {
         display: grid;
         grid-template-columns: repeat(2,auto);
@@ -1356,7 +1356,7 @@ section.dyslexia-in-chinese-section {
 
 section.more-info-section {
     .container {
-        padding: 3em 1em;
+        padding: 2em;
         margin: 0 auto;
         p{
             padding: 0 0 3em 0;
@@ -1399,6 +1399,40 @@ section.more-info-section {
         clip-path: circle(50% at 50% 50%);
         object-fit: cover;
         position: relative;
-        left:2em;
+        left:2.3em;
     }
+}
+
+@media only screen and (max-width: 376px) {
+    section.more-info {
+        .feature {
+            width: 18em;
+            padding: .7em;
+        }
+    }
+    img.hero-img {
+        transform: scale(90%);
+    }
+
+    .left-col {
+        text-align: center;
+    }
+
+    nav {
+        padding-right: 1em;
+    }
+
+    .overlapping-bridge {
+        p {
+            font-size: .3rem;
+        }
+    }
+
+    section.more-info-section {
+        img.games-for-learning-chinese {
+            position: relative;
+            left: 1.1em;
+        }
+    }
+    
 }
