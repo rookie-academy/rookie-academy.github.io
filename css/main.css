@@ -1327,76 +1327,6 @@ section.more-info .feature .content .more-info-btn {
   border-radius: 5em;
 }
 
-section.dyslexia-in-chinese-section {
-  background: var(--primary-color);
-  color: white;
-  text-align: center;
-  padding: 3em;
-}
-
-section.dyslexia-in-chinese-section h1 {
-  font-size: 1.7rem;
-}
-
-section.dyslexia-in-chinese-section p {
-  padding-top: 2em;
-}
-
-section.more-info-section .container {
-  padding: 2em;
-  margin: 0 auto;
-}
-
-section.more-info-section .container p {
-  padding: 0 0 3em 0;
-  text-indent: 2em;
-  letter-spacing: .03em;
-  font-size: 1.1rem;
-  margin-left: 1em;
-}
-
-section.more-info-section ul.qualities-list {
-  padding-right: 3em;
-  padding-top: 2em;
-  padding-bottom: 2em;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (minmax(19rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
-}
-
-section.more-info-section ul.qualities-list li {
-  font-size: 1.1rem;
-  letter-spacing: .03em;
-  margin-bottom: 4em;
-  margin-left: 2em;
-  position: relative;
-}
-
-section.more-info-section ul.qualities-list li:before {
-  content: '';
-  left: -2em;
-  top: .3em;
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  background-image: url("/assets/bullet-point-svg.svg");
-  background-size: contain;
-  margin-right: .5em;
-  margin-left: .2em;
-}
-
-section.more-info-section img.games-for-learning-chinese {
-  width: 17em;
-  height: 17em;
-  -webkit-clip-path: circle(50% at 50% 50%);
-          clip-path: circle(50% at 50% 50%);
-  -o-object-fit: cover;
-     object-fit: cover;
-  position: relative;
-  left: 2.3em;
-}
-
 @media only screen and (max-width: 376px) {
   section.more-info .feature {
     width: 18em;
@@ -1414,10 +1344,6 @@ section.more-info-section img.games-for-learning-chinese {
   }
   .overlapping-bridge p {
     font-size: .3rem;
-  }
-  section.more-info-section img.games-for-learning-chinese {
-    position: relative;
-    left: 1.1em;
   }
 }
 /*# sourceMappingURL=main.css.map */
