@@ -260,6 +260,11 @@ section.hero .hero-img {
   padding: 3rem 1rem 4rem 1rem;
 }
 
+section.hero .hero-img-zh {
+  width: 22em;
+  padding: 3rem 1rem 4rem 1rem;
+}
+
 section.about-section {
   background: var(--secondary-color);
   color: white;
@@ -742,6 +747,12 @@ nav li a:hover {
   .hero .container .hero-img {
     display: block;
     content: url(/assets/Component-9-1.svg);
+    position: relative;
+    top: 17em;
+  }
+  .hero .container .hero-img-zh {
+    display: block;
+    content: url(/assets/Component-70-2.svg);
     position: relative;
     top: 17em;
   }
@@ -1333,6 +1344,10 @@ section.more-info .feature .content .more-info-btn {
     padding: .7em;
   }
   img.hero-img {
+    -webkit-transform: scale(90%);
+            transform: scale(90%);
+  }
+  img.hero-img-zh {
     -webkit-transform: scale(90%);
             transform: scale(90%);
   }

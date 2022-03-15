@@ -233,6 +233,10 @@ section.hero {
         width: 22em;
         padding: 3rem 1rem 4rem 1rem;
     }
+    .hero-img-zh {
+        width: 22em;
+        padding: 3rem 1rem 4rem 1rem;
+    }
 }
 
 section.about-section {
@@ -698,6 +702,12 @@ nav {
         .hero-img {
             display: block;
             content: url(/assets/Component-9-1.svg);
+            position: relative;
+            top: 17em;
+        }
+        .hero-img-zh {
+            display: block;
+            content: url(/assets/Component-70-2.svg);
             position: relative;
             top: 17em;
         }
@@ -1350,6 +1360,9 @@ section.more-info {
         }
     }
     img.hero-img {
+        transform: scale(90%);
+    }
+    img.hero-img-zh {
         transform: scale(90%);
     }
 
