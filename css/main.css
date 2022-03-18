@@ -771,17 +771,6 @@ nav li a:hover {
     display: flex;
     margin: 3em 0em 5em 0em;
   }
-  .overlapping-bridge {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    position: relative;
-    left: -6em;
-    top: 7em;
-  }
-  .overlapping-bridge p {
-    font-size: .7em;
-  }
   .contact-left {
     width: 50%;
   }
@@ -844,8 +833,14 @@ nav li a:hover {
     margin: 0 auto;
   }
   .overlapping-bridge {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     position: relative;
-    left: .5em;
+    top: .7em;
+  }
+  .overlapping-bridge p {
+    font-size: .7em;
   }
   .recent-news {
     width: 50%;
@@ -877,6 +872,18 @@ nav li a:hover {
     gap: 3em;
     margin: 0 auto;
     width: 1200px;
+  }
+  .col-one {
+    width: 250px;
+  }
+  .col-two {
+    width: 250px;
+  }
+  .col-three {
+    width: 250px;
+  }
+  .col-four {
+    width: 250px;
   }
 }
 

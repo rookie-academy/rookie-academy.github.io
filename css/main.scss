@@ -725,17 +725,6 @@ nav {
         margin: 3em 0em 5em 0em;
     }
 
-    .overlapping-bridge {
-        display: flex;
-        position: relative;
-        left: -6em;
-        top: 7em;
-        p {
-            font-size: .7em;
-            
-        }
-    }
-
     //section.contact-us {
         //position: relative;
         //.container {
@@ -882,8 +871,12 @@ nav {
     //}
 
     .overlapping-bridge {
+        display: flex;
         position: relative;
-        left: .5em;
+        top: .7em;
+        p {
+            font-size: .7em;
+        }
     }
 
     .recent-news {
@@ -925,7 +918,21 @@ nav {
         margin: 0 auto;
         width: 1200px;
     }
+    .col-one {
+        width: 250px;
+    }
 
+    .col-two {
+        width: 250px;
+    }
+
+    .col-three {
+        width: 250px;
+    }
+
+    .col-four {
+        width: 250px;
+    }
 }
 
 section.join-us-section {
