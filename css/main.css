@@ -1368,4 +1368,59 @@ section.more-info .feature .content .more-info-btn {
     font-size: .3rem;
   }
 }
+
+section.ordinaryschool .rtable {
+  display: table;
+  width: auto;
+  padding: 2em;
+  border: var(--secondary-color) solid 2px;
+}
+
+section.ordinaryschool .rtable-caption {
+  display: table-caption;
+  text-align: center;
+  width: auto;
+  font-size: x-large;
+  background: var(--secondary-color);
+  color: white;
+  padding: .3em 0 .3em 0;
+}
+
+section.ordinaryschool .rtable-head-row {
+  display: table-header-group;
+  text-align: center;
+  width: auto;
+  background: var(--tertiary-color);
+  color: var(--secondary-color);
+  font-weight: bold;
+  font-size: large;
+}
+
+section.ordinaryschool .rtable-div-row {
+  display: table-row;
+  text-align: center;
+  width: auto;
+  background: #f2e7eb;
+}
+
+section.ordinaryschool .rtable-cell {
+  display: table-cell;
+  border: white double 1px;
+  padding: .3em;
+}
+
+section.ordinaryschool .rtable-cell a {
+  font-weight: bold;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+section.ordinaryschool .rtable-cell a:hover {
+  opacity: .7;
+  cursor: pointer;
+}
+
+section.ordinaryschool .desc {
+  width: 50%;
+}
 /*# sourceMappingURL=main.css.map */
