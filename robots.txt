@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /OLD/
+
+
+Sitemap: https://rookieacademy.org/sitemap.xml
