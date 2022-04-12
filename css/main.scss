@@ -1424,6 +1424,7 @@ section.ordinaryschool{
         display: table-cell;
         border: white double 1px;
         padding: .3em;
+        vertical-align: middle;
         a {
             font-weight: bold;
             color: var(--primary-color);
@@ -1432,6 +1433,11 @@ section.ordinaryschool{
                 opacity: .7;
                 cursor: pointer;
             }
+            padding: .3em .7em;
+            border-radius: 5em;
+            background: var(--primary-color);
+            color: white;
+            font-weight: bold;
         }
         
     }
