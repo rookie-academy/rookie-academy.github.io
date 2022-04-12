@@ -39,5 +39,4 @@ Allow: /*.png$
 Allow: /*.jpeg$
 Allow: /*.gif$
 
-Sitemap: https://rookieacademy.com/sitemap.xml
-Sitemap: https://rookieacademy.com/sitemap.rss
+Sitemap: https://rookieacademy.org/sitemap.xml
