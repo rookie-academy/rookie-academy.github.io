@@ -1,0 +1,43 @@
+User-agent: *
+Allow: /
+Disallow: /OLD/
+Allow: /*.js$
+Allow: /*.css$
+Allow: /*.jpg$
+Allow: /*.png$
+Allow: /*.jpeg$
+Allow: /*.gif$
+
+
+User-agent: Googlebot
+Allow: /
+Disallow: /OLD/
+Allow: /*.js$
+Allow: /*.css$
+Allow: /*.jpg$
+Allow: /*.png$
+Allow: /*.jpeg$
+Allow: /*.gif$
+
+User-agent: Googlebot-Mobile
+Allow: /
+Disallow: /OLD/
+Allow: /*.js$
+Allow: /*.css$
+Allow: /*.jpg$
+Allow: /*.png$
+Allow: /*.jpeg$
+Allow: /*.gif$
+
+User-Agent: bingbot
+Allow: /
+Disallow: /OLD/
+Allow: /*.js$
+Allow: /*.css$
+Allow: /*.jpg$
+Allow: /*.png$
+Allow: /*.jpeg$
+Allow: /*.gif$
+
+Sitemap: https://rookieacademy.com/sitemap.xml
+Sitemap: https://rookieacademy.com/sitemap.rss
