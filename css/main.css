@@ -1426,4 +1426,35 @@ section.ordinaryschool .rtable-cell a:hover {
 section.ordinaryschool .desc {
   width: 50%;
 }
+
+ul.level-0 {
+  text-indent: 2em;
+}
+
+ul.level-0 a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: bold;
+  line-height: 4em;
+}
+
+ul.level-0 a:hover {
+  opacity: 0.3;
+}
+
+ul.level-1 {
+  text-indent: 4em;
+  text-decoration: none;
+}
+
+ul.level-1 a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-weight: light;
+  line-height: 3em;
+}
+
+ul.level-1 a:hover {
+  opacity: 0.3;
+}
 /*# sourceMappingURL=main.css.map */

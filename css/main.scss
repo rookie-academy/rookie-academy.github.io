@@ -1442,3 +1442,30 @@ section.ordinaryschool{
         width: 50%;
     }
 }
+
+ul.level-0{
+    text-indent: 2em;
+    a{
+        text-decoration: none;
+        color: var(--primary-color);
+        font-weight: bold;
+        line-height: 4em;
+        &:hover{
+            opacity: 0.3;
+        }
+    }
+}
+
+ul.level-1{
+    text-indent: 4em;
+    text-decoration: none;
+    a{
+        text-decoration: none;
+        color: var(--secondary-color);
+        font-weight: light;
+        line-height: 3em;
+        &:hover{
+            opacity: 0.3;
+        }
+    }
+}
