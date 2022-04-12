@@ -1414,10 +1414,7 @@ section.ordinaryschool .rtable-cell a {
   font-weight: bold;
   color: var(--primary-color);
   text-decoration: none;
-  padding: .3em .7em;
-  border-radius: 5em;
-  background: var(--primary-color);
-  color: white;
+  color: var(--primary-color);
   font-weight: bold;
 }
 
