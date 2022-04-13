@@ -1369,14 +1369,14 @@ section.more-info .feature .content .more-info-btn {
   }
 }
 
-section.ordinaryschool .rtable {
+section.ordinaryschool .rtable, section.sen .rtable {
   display: table;
   width: auto;
   padding: 2em;
   border: var(--secondary-color) solid 2px;
 }
 
-section.ordinaryschool .rtable-caption {
+section.ordinaryschool .rtable-caption, section.sen .rtable-caption {
   display: table-caption;
   text-align: center;
   width: auto;
@@ -1386,7 +1386,7 @@ section.ordinaryschool .rtable-caption {
   padding: .3em 0 .3em 0;
 }
 
-section.ordinaryschool .rtable-head-row {
+section.ordinaryschool .rtable-head-row, section.sen .rtable-head-row {
   display: table-header-group;
   text-align: center;
   width: auto;
@@ -1396,21 +1396,21 @@ section.ordinaryschool .rtable-head-row {
   font-size: large;
 }
 
-section.ordinaryschool .rtable-div-row {
+section.ordinaryschool .rtable-div-row, section.sen .rtable-div-row {
   display: table-row;
   text-align: center;
   width: auto;
   background: #f2e7eb;
 }
 
-section.ordinaryschool .rtable-cell {
+section.ordinaryschool .rtable-cell, section.sen .rtable-cell {
   display: table-cell;
   border: white double 1px;
   padding: .3em;
   vertical-align: middle;
 }
 
-section.ordinaryschool .rtable-cell a {
+section.ordinaryschool .rtable-cell a, section.sen .rtable-cell a {
   font-weight: bold;
   color: var(--primary-color);
   text-decoration: none;
@@ -1418,12 +1418,12 @@ section.ordinaryschool .rtable-cell a {
   font-weight: bold;
 }
 
-section.ordinaryschool .rtable-cell a:hover {
+section.ordinaryschool .rtable-cell a:hover, section.sen .rtable-cell a:hover {
   opacity: .7;
   cursor: pointer;
 }
 
-section.ordinaryschool .desc {
+section.ordinaryschool .desc, section.sen .desc {
   width: 50%;
 }
 
