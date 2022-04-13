@@ -200,11 +200,6 @@ body svg {
   right: .7em;
 }
 
-.navbar svg {
-  width: .3em;
-  color: #606060;
-}
-
 section.hero {
   background: url("/assets/hero-img-2.png"), url("/assets/hero-img.png");
   background-size: cover;
@@ -1430,6 +1425,10 @@ section.ordinaryschool .rtable-cell a:hover, section.sen .rtable-cell a:hover {
 
 section.ordinaryschool .desc, section.sen .desc {
   width: 50%;
+}
+
+section.ordinaryschool .rtable-cell, section.sen .rtable-cell {
+  font-size: smaller;
 }
 
 ul.level-0 {

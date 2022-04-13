@@ -641,6 +641,7 @@ nav {
             display: none;
         } 
     }
+    
 }
 
 
@@ -1439,8 +1440,13 @@ section.ordinaryschool, section.sen{
         }
         
     }
+    
     .desc{
         width: 50%;
+    }
+
+    .rtable-cell{
+        font-size: smaller;
     }
 }
 
