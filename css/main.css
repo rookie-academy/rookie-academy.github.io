@@ -200,6 +200,11 @@ body svg {
   right: .7em;
 }
 
+.navbar svg {
+  width: .3em;
+  color: #606060;
+}
+
 section.hero {
   background: url("/assets/hero-img-2.png"), url("/assets/hero-img.png");
   background-size: cover;
