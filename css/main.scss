@@ -811,7 +811,7 @@ nav {
             }
         }
     }
-    section.more-info {
+    .more-info {
         display: grid; 
         grid-template-columns: repeat(2,auto);
         gap: 2em;
@@ -913,7 +913,7 @@ nav {
         }
     }
 
-    section.more-info {
+    .more-info {
         display: grid; 
         grid-template-columns: repeat(3,auto);
         gap: 3em;
@@ -1318,7 +1318,7 @@ section.programmes-list {
 
 }
 
-section.more-info {
+.more-info {
     margin: 0 auto;
     padding: 2em;
     .feature {
@@ -1362,7 +1362,7 @@ section.more-info {
 
 
 @media only screen and (max-width: 376px) {
-    section.more-info {
+    .more-info {
         .feature {
             width: 18em;
             padding: .7em;

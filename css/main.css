@@ -809,7 +809,7 @@ nav li a:hover {
     position: relative;
     left: 2em;
   }
-  section.more-info {
+  .more-info {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: (auto)[2];
@@ -864,7 +864,7 @@ nav li a:hover {
   section.work-with-us .punchline h1 {
     text-indent: 1.3em;
   }
-  section.more-info {
+  .more-info {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: (auto)[3];
@@ -1295,12 +1295,12 @@ section.programmes-list h1 {
   font-size: 1.7rem;
 }
 
-section.more-info {
+.more-info {
   margin: 0 auto;
   padding: 2em;
 }
 
-section.more-info .feature {
+.more-info .feature {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (auto)[2];
@@ -1315,7 +1315,7 @@ section.more-info .feature {
   padding: 1em 2em;
 }
 
-section.more-info .feature img {
+.more-info .feature img {
   width: 7em;
   -o-object-fit: cover;
      object-fit: cover;
@@ -1325,16 +1325,16 @@ section.more-info .feature img {
   top: .8em;
 }
 
-section.more-info .feature .content {
+.more-info .feature .content {
   position: relative;
   top: -1em;
 }
 
-section.more-info .feature .content p {
+.more-info .feature .content p {
   padding: 2em 2em 0 0;
 }
 
-section.more-info .feature .content .more-info-btn {
+.more-info .feature .content .more-info-btn {
   display: inline-block;
   text-decoration: none;
   font-size: .7rem;
@@ -1346,7 +1346,7 @@ section.more-info .feature .content .more-info-btn {
 }
 
 @media only screen and (max-width: 376px) {
-  section.more-info .feature {
+  .more-info .feature {
     width: 18em;
     padding: .7em;
   }
