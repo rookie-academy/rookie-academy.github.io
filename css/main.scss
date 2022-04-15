@@ -1409,6 +1409,7 @@ section.ordinaryschool, section.sen, section.weather-policy-section{
     .rtable{
         display: table;
         width: auto;
+        margin: auto;
         padding: 2em;
         border: var(--secondary-color) solid 2px;
     }
