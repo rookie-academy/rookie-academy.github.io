@@ -82,6 +82,21 @@ body {
                 color: white;
             }
         }
+        .email-address-btn {
+            fill: white;
+            width: 1em;
+            position: relative;
+            top: 0.1em;
+            right:-.2em;
+        }
+        .email-address {
+            color: white;
+            font-size: .5rem;
+            a {
+                text-decoration: none;
+                color: white;
+            }
+        }
     }
     .right-col {
         width: 5em;
@@ -379,36 +394,16 @@ section.contact-us {
                 font-size: 1.7rem;
                 margin-bottom: 2em;
             }
-            label {
-                font-size: 1.3rem;
-                display: block;
+            h3 {
+                font-size: 1rem;
                 margin-bottom: .5em;
-                margin-top: 1em;
             }
-            input, textarea {
-                width: 100%;
-                padding:.8em;
-                margin-bottom: 1em;
-                border-radius: .3em;
-                border: 1px solid gray;
-                box-sizing: border-box;
-            }
-            input[type="submit"] {
+            a {
                 text-decoration: none;
-                background: var(--primary-color);
                 color: white;
-                font-weight: bold;
-                font-size: 1.5rem;
-            
-                border: none;
-                border-radius: 5em;
-                margin-bottom:5em;
-                width:unset;
-                display: inline-block;
-                padding: .5em .9em;
                 cursor: pointer;
-    
             }
+            margin-bottom: 1.5em;
         }
         .contact-right {
             iframe {
@@ -721,11 +716,6 @@ nav {
             margin-top: .6em;
         }
     }
-    
-    .punchline {
-        display: flex;
-        margin: 3em 0em 5em 0em;
-    }
 
     //section.contact-us {
         //position: relative;
@@ -891,7 +881,7 @@ nav {
             grid-template-columns: repeat(2,auto);
         }
         .contact-right {
-            margin-top: 12em;
+            margin-top: 2em;
         }
     }
 
@@ -947,10 +937,6 @@ section.join-us-section {
                 width: 7em;
                 margin-bottom: 1em;
             }
-            h1 {
-                font-size: 1.7rem;
-                padding-bottom: 2em;
-            }
         }
         
         p {
@@ -960,12 +946,30 @@ section.join-us-section {
         }
 
         label {
-            font-size: 1.3rem;
-            display: block;
-            margin-bottom: .5em;
-            margin-top: 1em;
+            font-size: 1.0rem;
+            //display: block;
+            //margin-bottom: .5em;
+            //margin-top: 1em;
         }
         
+        form {
+            background: #f2f2f2;
+            a.addfile {
+                background: var(--primary-color);
+                color: white;
+            }
+            button {
+                background: var(--primary-color);
+                font-weight: bold;
+            }
+            a.ff-powered-img {
+                display: none;
+                img {
+                    display: none;
+                }
+            }
+        }
+
         input[type="text"], input[type="email"], textarea {
             width: 100%;
             padding:.8em;
@@ -1044,9 +1048,9 @@ section.join-us-section {
 }
 
 section.join-us-section-brown {
-    padding: 3em 2.7em;
-    background: var(--secondary-color);
+    background: var(--tertiary-color);
     color: white;
+    padding: 3em 2.7em;
     .container{
         margin-top: 2em;
         .punchline {
@@ -1055,26 +1059,44 @@ section.join-us-section-brown {
                 width: 7em;
                 margin-bottom: 1em;
             }
-            h1 {
-                font-size: 1.7rem;
-                padding-bottom: 2em;
-            }
         }
         
         p {
             font-size: 1.3rem;
             margin-bottom: .5em;
             margin-top: 1em;
+            color: white;
         }
 
         label {
-            font-size: 1.3rem;
-            display: block;
-            margin-bottom: .5em;
-            margin-top: 1em;
+            font-size: 1.0rem;
+            color: white;
+            //display: block;
+            //margin-bottom: .5em;
+            //margin-top: 1em;
         }
         
+        form {
+            background: var(--tertiary-color);
+            color: white;
+            a.addfile {
+                background: var(--primary-color);
+                color: white;
+            }
+            button {
+                background: var(--primary-color);
+                font-weight: bold;
+            }
+            a.ff-powered-img {
+                display: none;
+                img {
+                    display: none;
+                }
+            }
+        }
+
         input[type="text"], input[type="email"], textarea {
+            
             width: 100%;
             padding:.8em;
             margin-bottom: 1em;
@@ -1141,7 +1163,7 @@ section.join-us-section-brown {
                 padding: 0;
                 margin: 0;
                 font-size: .7rem;
-                color: whitesmoke;
+                color: #606060;
                 position: relative;
                 top: -.3em;
                 left: 1em;
@@ -1259,7 +1281,7 @@ section.work-with-us {
         .punchline {
             text-align: center;
             img {
-                width: 5em;
+                width: 7em;
                 margin-bottom: 1em;
             }
             h1 {
@@ -1273,6 +1295,23 @@ section.work-with-us {
             display: block;
             margin-bottom: .5em;
             margin-top: 1em;
+        }
+        form {
+            background: #f2f2f2;
+            a.addfile {
+                background: var(--primary-color);
+                color: white;
+            }
+            button {
+                background: var(--primary-color);
+                font-weight: bold;
+            }
+            a.ff-powered-img {
+                display: none;
+                img {
+                    display: none;
+                }
+            }
         }
         input, textarea {
             width: 100%;

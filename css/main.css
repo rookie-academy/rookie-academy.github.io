@@ -98,6 +98,24 @@ body svg {
   color: white;
 }
 
+.top-header-bar .middle-col .email-address-btn {
+  fill: white;
+  width: 1em;
+  position: relative;
+  top: 0.1em;
+  right: -.2em;
+}
+
+.top-header-bar .middle-col .email-address {
+  color: white;
+  font-size: .5rem;
+}
+
+.top-header-bar .middle-col .email-address a {
+  text-decoration: none;
+  color: white;
+}
+
 .top-header-bar .right-col {
   width: 5em;
 }
@@ -420,40 +438,23 @@ section.contact-us {
   color: white;
 }
 
+section.contact-us .container .contact-left {
+  margin-bottom: 1.5em;
+}
+
 section.contact-us .container .contact-left h1 {
   font-size: 1.7rem;
   margin-bottom: 2em;
 }
 
-section.contact-us .container .contact-left label {
-  font-size: 1.3rem;
-  display: block;
+section.contact-us .container .contact-left h3 {
+  font-size: 1rem;
   margin-bottom: .5em;
-  margin-top: 1em;
 }
 
-section.contact-us .container .contact-left input, section.contact-us .container .contact-left textarea {
-  width: 100%;
-  padding: .8em;
-  margin-bottom: 1em;
-  border-radius: .3em;
-  border: 1px solid gray;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-section.contact-us .container .contact-left input[type="submit"] {
+section.contact-us .container .contact-left a {
   text-decoration: none;
-  background: var(--primary-color);
   color: white;
-  font-weight: bold;
-  font-size: 1.5rem;
-  border: none;
-  border-radius: 5em;
-  margin-bottom: 5em;
-  width: unset;
-  display: inline-block;
-  padding: .5em .9em;
   cursor: pointer;
 }
 
@@ -765,12 +766,6 @@ nav li a:hover {
     margin-right: 2em;
     margin-top: .6em;
   }
-  .punchline {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin: 3em 0em 5em 0em;
-  }
   .contact-left {
     width: 50%;
   }
@@ -852,7 +847,7 @@ nav li a:hover {
         grid-template-columns: repeat(2, auto);
   }
   section.contact-us .contact-right {
-    margin-top: 12em;
+    margin-top: 2em;
   }
   section.faq-section .container, section.weather-policy-section .container {
     width: 1080px;
@@ -904,11 +899,6 @@ section.join-us-section .container .punchline img {
   margin-bottom: 1em;
 }
 
-section.join-us-section .container .punchline h1 {
-  font-size: 1.7rem;
-  padding-bottom: 2em;
-}
-
 section.join-us-section .container p {
   font-size: 1.3rem;
   margin-bottom: .5em;
@@ -916,10 +906,29 @@ section.join-us-section .container p {
 }
 
 section.join-us-section .container label {
-  font-size: 1.3rem;
-  display: block;
-  margin-bottom: .5em;
-  margin-top: 1em;
+  font-size: 1.0rem;
+}
+
+section.join-us-section .container form {
+  background: #f2f2f2;
+}
+
+section.join-us-section .container form a.addfile {
+  background: var(--primary-color);
+  color: white;
+}
+
+section.join-us-section .container form button {
+  background: var(--primary-color);
+  font-weight: bold;
+}
+
+section.join-us-section .container form a.ff-powered-img {
+  display: none;
+}
+
+section.join-us-section .container form a.ff-powered-img img {
+  display: none;
 }
 
 section.join-us-section .container input[type="text"], section.join-us-section .container input[type="email"], section.join-us-section .container textarea {
@@ -1004,9 +1013,9 @@ section.join-us-section .container .subscribe label {
 }
 
 section.join-us-section-brown {
-  padding: 3em 2.7em;
-  background: var(--secondary-color);
+  background: var(--tertiary-color);
   color: white;
+  padding: 3em 2.7em;
 }
 
 section.join-us-section-brown .container {
@@ -1022,22 +1031,39 @@ section.join-us-section-brown .container .punchline img {
   margin-bottom: 1em;
 }
 
-section.join-us-section-brown .container .punchline h1 {
-  font-size: 1.7rem;
-  padding-bottom: 2em;
-}
-
 section.join-us-section-brown .container p {
   font-size: 1.3rem;
   margin-bottom: .5em;
   margin-top: 1em;
+  color: white;
 }
 
 section.join-us-section-brown .container label {
-  font-size: 1.3rem;
-  display: block;
-  margin-bottom: .5em;
-  margin-top: 1em;
+  font-size: 1.0rem;
+  color: white;
+}
+
+section.join-us-section-brown .container form {
+  background: var(--tertiary-color);
+  color: white;
+}
+
+section.join-us-section-brown .container form a.addfile {
+  background: var(--primary-color);
+  color: white;
+}
+
+section.join-us-section-brown .container form button {
+  background: var(--primary-color);
+  font-weight: bold;
+}
+
+section.join-us-section-brown .container form a.ff-powered-img {
+  display: none;
+}
+
+section.join-us-section-brown .container form a.ff-powered-img img {
+  display: none;
 }
 
 section.join-us-section-brown .container input[type="text"], section.join-us-section-brown .container input[type="email"], section.join-us-section-brown .container textarea {
@@ -1115,7 +1141,7 @@ section.join-us-section-brown .container .subscribe label {
   padding: 0;
   margin: 0;
   font-size: .7rem;
-  color: whitesmoke;
+  color: #606060;
   position: relative;
   top: -.3em;
   left: 1em;
@@ -1239,7 +1265,7 @@ section.work-with-us .container .punchline {
 }
 
 section.work-with-us .container .punchline img {
-  width: 5em;
+  width: 7em;
   margin-bottom: 1em;
 }
 
@@ -1253,6 +1279,28 @@ section.work-with-us .container label {
   display: block;
   margin-bottom: .5em;
   margin-top: 1em;
+}
+
+section.work-with-us .container form {
+  background: #f2f2f2;
+}
+
+section.work-with-us .container form a.addfile {
+  background: var(--primary-color);
+  color: white;
+}
+
+section.work-with-us .container form button {
+  background: var(--primary-color);
+  font-weight: bold;
+}
+
+section.work-with-us .container form a.ff-powered-img {
+  display: none;
+}
+
+section.work-with-us .container form a.ff-powered-img img {
+  display: none;
 }
 
 section.work-with-us .container input, section.work-with-us .container textarea {
