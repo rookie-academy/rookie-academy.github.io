@@ -371,6 +371,15 @@
                 </div>
             </div>
         </section>
+        <section class="join-us-section-brown">
+            <div class="container">
+                <div style="text-align: center;"><img src="/assets/make-an-appointment.svg" alt="make an appointment logo">
+                    <h1></h1>
+                </div>
+                <div id="ff-compose"></div>
+                <script async defer src="https://formfacade.com/include/115510100775738866443/form/1FAIpQLSdrqMoOgyBilZFAMuZlh7mpYCM9BJYC5rUdqh885plGIn0s0w/classic.js?div=ff-compose"></script>
+            </div>
+        </section>
     </div>
     <div class="footer">
         <div class="container">
@@ -440,6 +449,29 @@
         close.addEventListener('click', () => {
             nav.classList.remove('open-nav')
         }) 
-        </script>
+        
+        var form = document.getElementById('sheetdb-form');
+        form.addEventListener("submit", e => {
+            e.preventDefault();
+            fetch(form.action, {
+                method : "POST",
+                body: new FormData(document.getElementById("sheetdb-form")),
+            }).then(
+                response => response.json()
+            ).then((html) => {
+                // you can put any JS code here
+                window.location.replace("thank-you.html");
+                
+            });
+        });
+
+        var date = new Date();
+        var currentDate = date.toISOString().slice(0,10);
+        var currentTime = date.getHours() + ':' + date.getMinutes();
+
+        document.getElementById('currentDate').value = currentDate;
+        document.getElementById('currentTime').value = currentTime;
+
+    </script>
 </body>
 </html>
