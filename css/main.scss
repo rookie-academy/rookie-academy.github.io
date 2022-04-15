@@ -1175,7 +1175,10 @@ section.faq-section {
         }
         padding-bottom: 3em;
     }
-
+    h3 {
+        font-size: 1.2rem;
+        text-align: center;
+    }
     ul.faq-list {
         display: grid;
         grid-template-columns: repeat(1,auto);
@@ -1210,26 +1213,12 @@ section.faq-section {
 section.weather-policy-section {
     color: #707070;
     margin-top: 3em;
-    padding: 0 3em;
-    .punchline {
-        text-align: center;
-        img {
+    .rtable-caption {
+        svg {
             width: 7em;
-            
+            margin-top: 1em;
+            fill: white;
         }
-        h1 {
-            font-size: 1.7rem;
-            margin-left: 1em;
-        }
-        padding-bottom: 3em;
-    }
-
-    p {
-        padding: 0 0 3em 0;
-        text-indent: 2em;
-        letter-spacing: .03em;
-        font-size: 1.1rem;
-        margin-left: 1em;
     }
 }
 
@@ -1416,7 +1405,7 @@ section.programmes-list {
     }
 }
 
-section.ordinaryschool, section.sen{
+section.ordinaryschool, section.sen, section.weather-policy-section{
     .rtable{
         display: table;
         width: auto;
