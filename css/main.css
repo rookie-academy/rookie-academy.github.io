@@ -116,10 +116,6 @@ body svg {
   color: white;
 }
 
-.top-header-bar .right-col {
-  width: 5em;
-}
-
 .top-header-bar .right-col .social-media-icon {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -130,15 +126,11 @@ body svg {
   gap: .5rem;
   position: relative;
   top: 0.3rem;
-  right: 2em;
+  right: 0.3rem;
 }
 
 .top-header-bar .right-col img {
   width: 1em;
-}
-
-.top-header-bar .right-col img.icon-mobile {
-  display: none;
 }
 
 .navbar {
@@ -685,9 +677,6 @@ nav li a:hover {
   }
   .contact-left, section.work-with-us form, section.join-us-section form, section.join-us-section-brown form {
     width: 500px;
-  }
-  .top-header-bar img.icon-mobile {
-    display: none;
   }
 }
 
@@ -1508,5 +1497,11 @@ ul.level-1 a {
 
 ul.level-1 a:hover {
   opacity: 0.3;
+}
+
+@media screen and (max-width: 680px) {
+  .email-address, .email-address-btn, .icon-mobile {
+    display: none;
+  }
 }
 /*# sourceMappingURL=main.css.map */

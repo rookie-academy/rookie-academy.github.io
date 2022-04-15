@@ -81,6 +81,7 @@ body {
                 text-decoration: none;
                 color: white;
             }
+            
         }
         .email-address-btn {
             fill: white;
@@ -99,23 +100,16 @@ body {
         }
     }
     .right-col {
-        width: 5em;
-        
         .social-media-icon {
             display: flex;
             justify-content: space-between;
             gap: .5rem;
             position: relative;
-            
             top: 0.3rem;
-            right: 2em;
+            right: 0.3rem;
         }
         img {
             width: 1em;
-        }
-
-        img.icon-mobile {
-            display: none;
         }
     }
 }
@@ -630,13 +624,6 @@ nav {
     .contact-left , section.work-with-us form, section.join-us-section form, section.join-us-section-brown form {
         width: 500px;
     }
-
-    .top-header-bar {
-        img.icon-mobile {
-            display: none;
-        } 
-    }
-    
 }
 
 
@@ -1514,4 +1501,8 @@ ul.level-1{
             opacity: 0.3;
         }
     }
+}
+
+@media screen and (max-width: 680px) {
+    .email-address, .email-address-btn, .icon-mobile {display:none;}
 }
