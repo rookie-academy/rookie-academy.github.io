@@ -1492,10 +1492,4 @@ ul.level-1 a:hover {
     display: none;
   }
 }
-
-@media screen and (max-width: 413px) {
-  .email-address, .email-address-btn, .icon-mobile {
-    display: none;
-  }
-}
 /*# sourceMappingURL=main.css.map */
